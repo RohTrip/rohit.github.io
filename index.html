@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| Rohit Site |</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href= https://www.youtube.com/watch?v=dQw4w9WgXcQ><img src="Images/logo.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-me.html">ABOUT ME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="coming-soon.html">PROJECTS</a></li>
+            <li><a href="coming-soon.html">OTHER</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Welcome to the Rohit website!</h1>
+        <p>
+          Welcome to the Rohit website, the website that captures all things
+          Rohit related. This includes things such as how to contact Rohit, his
+          upcoming and past projects, and other cool things that he finds
+          interesting. We have many subcategories in the Rohit Website such as
+          the ones in the top right. Click on them to see where they lead you!
+        </p>
+        <a href="#moreinfo" class="more-info">more info</a>
+      </div>
+    </section>
+
+    <section id="moreinfo">
+      <h1>More Information</h1>
+      <h2>Rohit Tripathi is a people's person, here's what some of his many friends think of him:</h2>
+      <h3>"Rohit Tripathi is a tall man, at 6' 2" he is simply built better. He is a quick learner who will soon master any programming language. He takes numerous honors classes and excels academically. Further he has excelled in volleyball, demonstrating his athletic prowess. In his free time he has interests in gaming, tech, and programming." <br>- Kelvin Ni, one of Rohit's Associates.</br> </h2>
+      <h3>"Rohit is a very caring person." <br> - Marcus Zhou, Another Associate<br/></h2>
+      <h3>“Rohit is a very smart individual and I think that over the years I’ve known him, he’s improved and changed a lot as a person! He is also a very good friend with many strengths and never fails to make us smile!” <br>- Paula Grace Marcos, Schoolmate</h3>
+      <h3>“Rohit is a really genuine person and I’ve seen him change a lot in the span of just a few years. He seems to be very passionate in the things he enjoys and is always there for others” <br>- Tazkia Rahim, Schoolmate </h3>
+      <a href="" id="back-top">Back to top</a>
+<!-- Java script-->
+
+
+
+        <script>
+
+          var navlinks = document.getElementById("navlinks");
+          function showmenu(){
+            navlinks.style.right = "0"
+          }
+          function hidemenu(){
+            navlinks.style.right = "-200px"
+          }
+
+        </script>
+
+  </body>
+</html>

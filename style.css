@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(1, 33, 92, 0.7), rgb(1, 3, 39)),
+    url(Images/RohitBackground.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex; /* this makes the nav put into a flex box*/
+  padding: 2% 2%; /* 6% away from the vertical wall of website, 2% down from top */
+  justify-content: space-between; /* this takes the space between the logo and the text and seperates them equaly with the rules before*/
+  align-items: center; /*centers the middle horrizontally of the logo and the text*/
+}
+
+nav img {
+  width: 175px; /*makes shit inside nav img (logo) 150px wide*/
+}
+
+.nav-links {
+  flex: 1; /*resets code and puts the words in flex box 1*/
+  text-align: right; /* Alligns text to the right */
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 20px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: rgb(1, 33, 92);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.text-box {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 100px;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+.text-box p {
+  margin: 10px 0 40px; /* 10 from top, 0 from left and right, 40 from down */
+  font-size: 30px;
+  font-family: "Righteous", cursive;
+}
+
+.more-info {
+  display: inline-block;
+  text-decoration: solid;
+  color: rgb(255, 255, 255);
+  padding: 12px 12px;
+  font-size: 30px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  text-align: center;
+  border: 5px solid rgb(0, 36, 136);
+  border-radius: 100px 100px;
+}
+
+#moreinfo {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(360deg, rgba(1, 3, 39, 0.7), rgb(3, 3, 39)),
+    url(Images/RohitBackground2.png);
+  background-position: initial;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+#moreinfo h1 {
+  font-size: 80px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding: 10px 50px;
+  padding-bottom: 2%;
+}
+#moreinfo h2 {
+  font-size: 40px;
+  font-family: "Righteous", cursive;
+}
+
+#moreinfo h3 {
+  font-size: 25px;
+  padding-top: 4%;
+  padding: 2%;
+  font-family: sans-serif;
+}
+#back-top {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  border: 5px solid rgb(0, 36, 136);
+  border-radius: 10% 10%;
+  width: 100px;
+  text-align: center;
+  padding: 15px 15px;
+}
+nav .fa {
+  display: none;
+}
+
+/*Contact Me page*/
+
+.contactme h1 {
+  font-size: 175px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.contactme h2 {
+  font-size: 60px;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 7%;
+  padding-top: 25px;
+  padding-bottom: 200px;
+}
+
+.contact-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/*  color: rgb(255, 255, 255);
+  border: 5px solid rgb(0, 36, 136);
+  border-radius: 10% 10%;
+  padding: 15px 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  position: relative;
+  text-align: center;
+  margin: auto;
+*/
+
+.return-home {
+  color: rgb(255,255,255);
+  text-decoration: none;
+  text-align: center;
+  border: 5px solid rgb(0,36,136);
+  padding: 15px 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  position: relative;
+  align-content: center;
+  transform: translateX(600%);
+}
+
+.contactme h3 {
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-style: solid rgba(255, 255, 255);
+  font-display: none;
+  border: solid rgb(1, 4, 39);
+  background-color: rgb(1, 4, 39);
+  border-width: 9px;
+  border-radius: 10px 12px;
+  margin-bottom: 5%;
+}
+.contactme h4 {
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 50px;
+  border: 10px rgba(1, 33, 92, 0.7);
+  padding: 15px;
+  background-color: rgba(1, 33, 92, 0.7);
+  background-clip: padding-box;
+  border-radius: 10px 10px;
+}
+
+.socials {
+  column-count: 2;
+  column-gap: 4px;
+  padding-bottom: 12%;
+  padding-top: 5%;
+  padding: 30px;
+  
+  padding-top: 20%;
+
+}
+
+.headertwo {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(1, 33, 92, 0.7), rgb(1, 4, 39)),
+    url(Images/RohitBackground3.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+ /*About me*/
+ .about-me h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 120px;
+  font-weight: bold;
+ }
+
+ .about-me h2{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  padding: 10px 10px 10px;
+  margin: 40px;
+ }
+ .about-me-page{
+  background-image: linear-gradient(rgba(1, 33, 92, 0.7), rgb(1, 4, 39));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+ }
+
+ .coming-soon{
+  background-color: rgba(1, 33, 92, 0.7);
+  text-align: center;
+ }
+
+.coming-soon h1{
+  font-size: 190px;
+  font-family: sans-serif;
+  font-weight:bolder;
+}
+
+.coming-soon h2{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+ .return-home-cs{
+  color: rgb(255,255,255);
+  text-decoration: none;
+  text-align: center;
+  border: 5px solid rgb(0,36,136);
+  padding: 15px 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  position: relative;
+  align-content: center;
+ }
+@media (max-width: 1060px) {
+  #moreinfo h1 {
+    font-size: 40px;
+  }
+  #moreinfo h2 {
+    font-size: 30px;
+    padding: 10% 10%;
+  }
+  #moreinfo h3 {
+    font-size: 20px;
+    padding: 5%;
+  }
+  .nav-links ul li a {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    min-height: 100%;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    background: rgb(1, 33, 92);
+    transition: 1s;
+  }
+  .text-box h1 {
+    font-size: 50px;
+    margin-bottom: 70px;
+  }
+  .text-box p {
+    margin: 10px 0 40px; /* 10 from top, 0 from left and right, 40 from down */
+    font-size: 20px;
+  }
+  .more-info {
+    font-size: 30px;
+  }
+  nav img {
+    width: 125px;
+  }
+  nav .fa {
+    display: block;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  /*contact me page*/
+
+  .contactme h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .contactme h2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 7%;
+    padding-top: 25px;
+    padding-bottom: 500px;
+  }
+
+  .contact-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .return-home {
+
+    display: none;
+  }
+
+  .headertwo {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(1, 33, 92, 0.7), rgb(1, 4, 39)),
+      url(Images/RohitBackground3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .socials {
+    column-count: 2;
+    column-gap: 4px;
+    padding-bottom: 12%;
+    padding-top: 5%;
+    padding: 30px;
+    padding-top: 50%;
+  }
+}

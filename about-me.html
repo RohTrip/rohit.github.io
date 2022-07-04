@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me | Rohit Site |</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="headerthree">
+      <nav>
+        <a href= https://www.youtube.com/watch?v=dQw4w9WgXcQ><img src="Images/logo.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-me.html">ABOUT ME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="coming-soon.html">PROJECTS</a></li>
+            <li><a href="coming-soon.html">OTHER</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+<body class="about-me-page">
+
+  <section class="about-me">
+    <h1>About me!</h1>
+    <h2>Rohit Tripathi is a Class of 25' Highschooler. He spends most of his time playing videogames, watching tv, studying, or coding. This website was made from scratch and was built up by Rohit and his attempts to improve his coding skills. This website took around 3 days to make. Rohit is very active on social media and can be found spending alot of his time talking to his friends, who are an integral part of his life.</h2>
+  </section>
+    
+  <section><a class="return-home" href ="index.html">Return Home</a></section>
+
+    
+    <!-- Java Script -->
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+          navlinks.style.right = "0"
+        }
+        function hidemenu(){
+          navlinks.style.right = "-200px"
+        }
+
+      </script>
+
+</body>
+</html>
