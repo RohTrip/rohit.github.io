@@ -63,6 +63,7 @@ nav img {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .text-box h1 {
@@ -71,11 +72,13 @@ nav img {
   margin-bottom: 50px;
   font-weight: bold;
   font-style: italic;
+  color: rgb(255, 255, 255);
 }
 .text-box p {
   margin: 10px 0 40px; /* 10 from top, 0 from left and right, 40 from down */
   font-size: 30px;
   font-family: "Righteous", cursive;
+  color: rgb(255, 255, 255);
 }
 
 .more-info {
@@ -111,10 +114,12 @@ nav img {
   font-weight: bold;
   padding: 10px 50px;
   padding-bottom: 2%;
+  color: rgb(255, 255, 255);
 }
 #moreinfo h2 {
   font-size: 40px;
   font-family: "Righteous", cursive;
+  color: rgb(255, 255, 255);
 }
 
 #moreinfo h3 {
@@ -122,6 +127,7 @@ nav img {
   padding-top: 4%;
   padding: 2%;
   font-family: sans-serif;
+  color: rgb(255, 255, 255);
 }
 #back-top {
   font-size: 20px;
@@ -148,6 +154,7 @@ nav .fa {
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
+  color: rgb(255, 255, 255);
 }
 .contactme h2 {
   font-size: 60px;
@@ -156,6 +163,7 @@ nav .fa {
   padding: 7%;
   padding-top: 25px;
   padding-bottom: 200px;
+  color: rgb(255, 255, 255);
 }
 
 .contact-link {
@@ -179,10 +187,10 @@ nav .fa {
 */
 
 .return-home {
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   text-align: center;
-  border: 5px solid rgb(0,36,136);
+  border: 5px solid rgb(0, 36, 136);
   padding: 15px 15px;
   font-family: sans-serif;
   font-weight: bold;
@@ -232,9 +240,8 @@ nav .fa {
   padding-bottom: 12%;
   padding-top: 5%;
   padding: 30px;
-  
+  color: rgb(255, 255, 255);
   padding-top: 20%;
-
 }
 
 .headertwo {
@@ -245,47 +252,49 @@ nav .fa {
   background-position: center;
   background-size: cover;
   position: relative;
+  color: rgb(255, 255, 255);
 }
 
-
-
- /*About me*/
- .about-me h1{
+/*About me*/
+.about-me h1 {
   text-align: center;
   font-family: sans-serif;
   font-size: 120px;
   font-weight: bold;
- }
+  color: rgb(255, 255, 255);
+}
 
- .about-me h2{
+.about-me h2 {
   text-align: center;
   font-family: sans-serif;
   font-size: 50px;
   font-weight: lighter;
   padding: 10px 10px 10px;
   margin: 40px;
- }
- .about-me-page{
+  color: rgb(255, 255, 255);
+}
+.about-me-page {
   background-image: linear-gradient(rgba(1, 33, 92, 0.7), rgb(1, 4, 39));
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
- }
-
- .coming-soon{
-  background-color: rgba(1, 33, 92, 0.7);
-  text-align: center;
- }
-
-.coming-soon h1{
-  font-size: 190px;
-  font-family: sans-serif;
-  font-weight:bolder;
 }
 
-.coming-soon h2{
+.coming-soon {
+  background-color: rgba(1, 33, 92, 0.7);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.coming-soon h1 {
+  font-size: 190px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.coming-soon h2 {
   font-size: 40px;
   font-family: sans-serif;
   font-weight: lighter;
@@ -293,11 +302,11 @@ nav .fa {
   padding-bottom: 100px;
 }
 
- .return-home-cs{
-  color: rgb(255,255,255);
+.return-home-cs {
+  color: rgb(255, 255, 255);
   text-decoration: none;
   text-align: center;
-  border: 5px solid rgb(0,36,136);
+  border: 5px solid rgb(0, 36, 136);
   padding: 15px 15px;
   font-family: sans-serif;
   font-weight: bold;
@@ -305,7 +314,7 @@ nav .fa {
   display: inline-flex;
   position: relative;
   align-content: center;
- }
+}
 @media (max-width: 1060px) {
   #moreinfo h1 {
     font-size: 40px;
@@ -378,7 +387,6 @@ nav .fa {
   }
 
   .return-home {
-
     display: none;
   }
 
